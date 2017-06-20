@@ -1,0 +1,193 @@
+/*challenge Maison-copie.fr
+Grondin Jean-claude
+Decle29@gmail.com */
+
+body{
+  background-image: url("pastel.jpg") ;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#banner1{
+    display: block;
+    background-color: #5F8CA3;
+    height:50px;
+    width:100%;
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    font-family: helvetica;
+}
+
+#banner1 img{
+  width:30%;   
+    
+}
+
+
+#menu{
+    min-width: 500px;
+    width:100%;
+    height:100px;
+    position: relative;
+    background-color: #DB0B32;
+}
+
+#menu ul{
+    float:left;
+    left: 50%;
+    position:relative;
+    padding-top: 15px;
+    margin-left: -50px;
+ 
+    
+}
+
+#menu ul li{
+    margin-left:30px;
+    float:left;
+    list-style-type: none;
+    position: relative;
+    left: -50%;
+   
+}
+
+#banner1 menu form li{
+    text-align: center;
+    position: relative;
+    margin-left:20%;
+   
+    
+}
+
+#menu ul li a{
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+    display: inline-block;
+    background-color: #5F8CA3;
+    height:30px;
+    width: 100px;
+    color:white;
+    text-decoration:none ;
+}
+
+#menu ul li a:hover{
+    color: white;
+    background-color: #5EB6DD;
+}
+
+.img1{
+    position:relative;
+    width:7%; 
+    float: left;
+    margin-left: -30%;
+    
+}
+
+
+#banner2{
+   
+    display:inline-block;
+    background-color:#5F8CA3;
+    height:50px;
+    width:100%;
+    top:110px;
+}
+
+
+#banner2 section ul li{
+    
+    color:white;
+    top: -15px;
+    margin-left: 150px;
+    border-bottom-right-radius: 20px;
+    display:inline-block;
+    position: relative;
+    text-align: center;
+}
+
+
+.img2{
+    margin-top: 5px;
+    width:11%; 
+    float:right;
+}
+
+.img3{
+    border-radius: 15px;
+    width:30%;
+    position: relative;
+    margin-left: 32%;
+    display:inline-block;
+    margin-bottom: -28%;
+}
+
+table{
+    
+    border-collapse: collapse;
+   
+}
+td, th{
+    border: 3px solid #DB0B32;
+    }
+    
+
+   div#exporter {
+       color: white;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        margin-top: -21px;
+	width:50%;
+	height:70px;
+	background-color:#DB0B32;
+        text-align: center;
+        
+        
+	}
+        
+div#contenu {
+    border-radius: 15px;
+    background-color:#5F8CA3;
+    width: 300px;
+    height:400px;
+    color:white;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 5px;
+
+}
+
+.google{
+    float: right;
+    margin-left: 30%;
+    width: 400px;
+    height: 400px;
+    background-color: #5F8CA3;
+    margin-top: -32%;
+    border-radius:15px;
+}
+       
+.piedpage {
+    border-radius:15px;
+    text-align: center;
+    line-height: 15px;
+    padding: auto auto auto auto;
+    position: relative;
+    color: white;
+    width:100%;
+    height:60px;
+    background-color:#5F8CA3;
+}
+        
+        
+/*index2*/
+
+
+#devis{
+    width: 500px;
+    height: 100px;
+   
+}

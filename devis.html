@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>www.maison-copie.fr</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+      <body>
+          
+      <!--1ere bannière-->
+        
+          <div id="banner1">
+            <img src="libegapho.jpg"> 
+             </div>
+              <div id="menu">
+                <div><img class="img2" src="liberte.jpg">
+                    
+                 <ul>
+               <li><a href="index.html"><em>Accueil</em></a></li>
+             <li><a href="file:///home/akhdin/Bureau/maison-copie/devis.html"><em>Devis en ligne</em></a></li>
+              <li><a href="mailto:contact@maison-copie.fr"><em>Contact</em></a></li>
+                </ul>
+                    
+               </div>
+               <div><img class="img1" src="pdf.png"/></div>
+        
+  <!--2eme bannière-->
+        
+             <div id="banner2">
+               <section class="loginform cf">
+                 <form name="login" action="index_submit" method="get" accept-charset="utf-8">
+                   <ul>
+                    <li><label for="usermail">Utilisateur</label>
+                     <input type="email" name="usermail" placeholder="adresse mail" required></li>
+                      <li><label for="password">Mot de passe</label>
+                       <input type="password" name="password" placeholder="" required></li>
+                     <li>
+                    <input type="submit" value="Se connecter"></li>
+                   <input type="submit" value="S'enregistrer"></li>
+                 </ul>
+                </form>
+              </section>
+            </div>
+  
+  <form name="FormFTP" action="mailto:contact@maison-copie.fr">
+        - Nom: <input type="text" name="name"><br>
+        - Prénom: <input type="text" name="firstname"><br>
+        - Adresse: <input type="text" name="adress"><br>
+        - Ville: <input type="text" name="city"><br>
+        - Code postal: <input type="text" name="postcode"><br>
+        - Mail: <input type="text" name="mail"><br>
+        - Téléphone: <input type="text" name="tel"><br>
+    <input type="button" name="valider" value="Envoyer" onClick="document.location.href='ftp://'+FormFTP.login.value+':'+FormFTP.pass.value+'@fsldkf.no-ip.org';">
+  </form>
+        
+    </body>
+</html>
